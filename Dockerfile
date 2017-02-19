@@ -1,6 +1,8 @@
 FROM armhfbuild/nginx:1.11.9
 MAINTAINER Jason Wilder mail@jasonwilder.com
 
+ENV NGINX_VERSION 1.11.9
+
 # Install wget and install/updates certificates
 RUN apt-get update \
  && apt-get install -y -q --no-install-recommends \
