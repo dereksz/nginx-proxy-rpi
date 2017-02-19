@@ -8,7 +8,6 @@ env:
   - DOCKER_VERSION=1.13.1-0~ubuntu-trusty
   matrix:
   - TEST_TARGET: test-debian
-  - TEST_TARGET: test-alpine
 
 before_install:
   # list docker-engine versions
